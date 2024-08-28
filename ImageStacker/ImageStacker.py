@@ -19,11 +19,13 @@ import time
 
 from Deadline.Plugins import *
 
+
 def GetDeadlinePlugin():
     """This is the function that Deadline calls to get an instance of the
     main DeadlinePlugin class.
     """
     return ImageStacker()
+
 
 def CleanupDeadlinePlugin(deadlinePlugin):
     """This is the function that Deadline calls when the plugin is no
@@ -31,8 +33,10 @@ def CleanupDeadlinePlugin(deadlinePlugin):
     """
     deadlinePlugin.Cleanup()
 
+
 class ImageStacker(DeadlinePlugin):
     """This is the main DeadlinePlugin class for MyPlugin."""
+
     Process = None  # Variable to hold the Managed Process object.
 
     def __init__(self):
