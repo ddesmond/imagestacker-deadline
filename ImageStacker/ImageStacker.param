@@ -1,0 +1,35 @@
+[About]
+Type=label
+Label=About
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=ImageStacker
+Description=Not configurable
+
+[ConcurrentTasks]
+Type=label
+Label=ConcurrentTasks
+Category=About Plugin
+CategoryOrder=-1
+Index=1
+Default=True
+Description=Not configurable
+
+[ImageStackerPath_Beta]
+Type=label
+Label=ImageStacker Beta
+Category=About Plugin
+CategoryOrder=-1
+Index=2
+Default="/path/to/image/stacker"
+Description=Set ImageStacker path so executables are available to Deadline plugin
+
+[ImageStackerPath_Release_Version_1.0]
+Type=label
+Label=ImageStacker Version 1
+Category=About Plugin
+CategoryOrder=-1
+Index=2
+Default="/path/to/image/stacker"
+Description=Set ImageStacker path so executables are available to Deadline plugin

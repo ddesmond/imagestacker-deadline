@@ -1,0 +1,26 @@
+[InputJob]
+Type=string
+Label=Input Job ID
+Category=Input JobID
+Index=0
+Description=The input job id
+Required=false
+DisableIfBlank=true
+
+[InputFolder]
+Type=string
+Label=Input Folder
+Category=Input 1
+Index=0
+Description=The input folder to process.
+Required=True
+DisableIfBlank=true
+
+[AdditionalArgs]
+Type=string
+Label=Additional Arguments
+Category=Additional Arguments
+Index=0
+Description=Additional general command line argument.
+Required=false
+DisableIfBlank=true
