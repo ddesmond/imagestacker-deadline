@@ -70,6 +70,13 @@ class ImageStacker(DeadlinePlugin):
         return
 
     def RenderTasks(self):
+        # $ ImageStackerCLI --in /Path/To/Folder --out /Path/To/OutFile
+        # -c --config /path
+        #-bd 32  - override bithdepth
+        #-psd -psb
+        #--verbosity Debug
+        #--activate CLI-XXXX-XXXX-XXXX-XXXX-XXXX-XXXX
+        #--deactivate {optional:LicenseKey}
         pass
 
     def EndJob(self):

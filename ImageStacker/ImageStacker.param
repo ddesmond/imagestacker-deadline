@@ -33,3 +33,39 @@ CategoryOrder=-1
 Index=2
 Default="/path/to/image/stacker"
 Description=Set ImageStacker path so executables are available to Deadline plugin
+
+[ImageStacker_Debug]
+Type=checkbox
+Label=ImageStacker Debug
+Category=Debug
+CategoryOrder=-1
+Index=0
+Default=false
+Description=Set ImageStacker debug mode
+
+[ImageStacker_BitDepthOverride]
+Type=checkbox
+Label=ImageStacker Force Bit Depth
+Category=Debug
+CategoryOrder=-1
+Index=1
+Default=false
+Description=Set ImageStacker BitDepth
+
+[ImageStacker_FormatOVerride]
+Type=checkbox
+Label=ImageStacker Force File format
+Category=Debug
+CategoryOrder=-1
+Index=2
+Default=false
+Description=Set ImageStacker File format
+
+[ImageStacker_Activation]
+Type=string
+Label=ImageStacker Activation Key
+Category=Debug
+CategoryOrder=-1
+Index=3
+Default=true
+Description=Set the Activation key

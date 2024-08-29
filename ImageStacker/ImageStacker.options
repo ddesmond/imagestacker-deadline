@@ -7,14 +7,32 @@ Description=The input job id
 Required=false
 DisableIfBlank=true
 
+[ConfigPath]
+Type=string
+Label=Config file path
+Category=Configuration
+Index=1
+Description=Config path for ImageStacker
+Required=false
+DisableIfBlank=true
+
 [InputFolder]
 Type=string
 Label=Input Folder
-Category=Input 1
-Index=0
-Description=The input folder to process.
-Required=True
-DisableIfBlank=true
+Category=Input
+Index=2
+Description=The input folder to process
+Required=false
+DisableIfBlank=false
+
+[OutputFolder]
+Type=string
+Label=Output Folder
+Category=Output
+Index=2
+Description=The output folder
+Required=false
+DisableIfBlank=false
 
 [AdditionalArgs]
 Type=string
