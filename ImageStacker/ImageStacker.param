@@ -52,7 +52,7 @@ Index=1
 Default=false
 Description=Set ImageStacker BitDepth
 
-[ImageStacker_FormatOVerride]
+[ImageStacker_FormatOverride]
 Type=checkbox
 Label=ImageStacker Force File format
 Category=Debug
