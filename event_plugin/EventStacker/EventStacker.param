@@ -1,0 +1,20 @@
+[State]
+Type=Enum
+Items=Global Enabled;Opt-In;Disabled
+Category=Options
+CategoryOrder=0
+CategoryIndex=0
+Label=State
+Default=Disabled
+Description=How this event plug-in should respond to events. If Global, all jobs and slaves will trigger the events for this plugin. If Opt-In, jobs and slaves can choose to trigger the events for this plugin. If Disabled, no events are triggered for this plugin.
+
+[JobDoneMessage]
+Type=enum
+Values=On Job Started;On Job Finished;On Job Started and On Job Finished
+Category=Options
+CategoryOrder=0
+Index=1
+Default=On Job Finished
+Label=Job done Message
+Description=Runs after a render has been done.
+ 
