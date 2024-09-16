@@ -32,7 +32,9 @@ def CleanupDeadlinePlugin(deadlinePlugin):
     longer in use so that it can get cleaned up.
     """
     deadlinePlugin.Cleanup()
-
+    # move deactivate
+    # no need to deactivate
+    # --deactivate {optional:LicenseKey}
 
 class ImageStacker(DeadlinePlugin):
     """This is the main DeadlinePlugin class for MyPlugin."""
@@ -76,7 +78,6 @@ class ImageStacker(DeadlinePlugin):
         #-psd -psb
         #--verbosity Debug
         #--activate CLI-XXXX-XXXX-XXXX-XXXX-XXXX-XXXX
-        #--deactivate {optional:LicenseKey}
         pass
 
     def EndJob(self):
